@@ -14,6 +14,10 @@
 		E328C0E429E2BC36004E8CCA /* VakitlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C0E329E2BC36004E8CCA /* VakitlerTests.swift */; };
 		E328C0EE29E2BC36004E8CCA /* VakitlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C0ED29E2BC36004E8CCA /* VakitlerUITests.swift */; };
 		E328C0F029E2BC36004E8CCA /* VakitlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C0EF29E2BC36004E8CCA /* VakitlerUITestsLaunchTests.swift */; };
+		E328C0FD29E2DF35004E8CCA /* Color+Vakitler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C0FC29E2DF35004E8CCA /* Color+Vakitler.swift */; };
+		E328C0FF29E2DFC9004E8CCA /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C0FE29E2DFC9004E8CCA /* PrayerTimes.swift */; };
+		E328C10129E2E2CC004E8CCA /* Font+Vakitler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C10029E2E2CC004E8CCA /* Font+Vakitler.swift */; };
+		E328C10329E2F686004E8CCA /* PrayerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E328C10229E2F686004E8CCA /* PrayerListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E328C0E929E2BC36004E8CCA /* VakitlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VakitlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E328C0ED29E2BC36004E8CCA /* VakitlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITests.swift; sourceTree = "<group>"; };
 		E328C0EF29E2BC36004E8CCA /* VakitlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E328C0FC29E2DF35004E8CCA /* Color+Vakitler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Vakitler.swift"; sourceTree = "<group>"; };
+		E328C0FE29E2DFC9004E8CCA /* PrayerTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimes.swift; sourceTree = "<group>"; };
+		E328C10029E2E2CC004E8CCA /* Font+Vakitler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Vakitler.swift"; sourceTree = "<group>"; };
+		E328C10229E2F686004E8CCA /* PrayerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				E328C0D229E2BC35004E8CCA /* VakitlerApp.swift */,
 				E328C0D429E2BC35004E8CCA /* ContentView.swift */,
+				E328C10229E2F686004E8CCA /* PrayerListItem.swift */,
+				E328C10029E2E2CC004E8CCA /* Font+Vakitler.swift */,
+				E328C0FE29E2DFC9004E8CCA /* PrayerTimes.swift */,
+				E328C0FC29E2DF35004E8CCA /* Color+Vakitler.swift */,
 				E328C0D629E2BC36004E8CCA /* Assets.xcassets */,
 				E328C0D829E2BC36004E8CCA /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E328C0D529E2BC35004E8CCA /* ContentView.swift in Sources */,
+				E328C0FF29E2DFC9004E8CCA /* PrayerTimes.swift in Sources */,
+				E328C10129E2E2CC004E8CCA /* Font+Vakitler.swift in Sources */,
 				E328C0D329E2BC35004E8CCA /* VakitlerApp.swift in Sources */,
+				E328C0FD29E2DF35004E8CCA /* Color+Vakitler.swift in Sources */,
+				E328C10329E2F686004E8CCA /* PrayerListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
